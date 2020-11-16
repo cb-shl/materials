@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgb(240,240,240);
+    width: 100%;
+    height: auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:5%;
+    box-shadow:0 1px 1px rgba(0,0,0,0.03),0 2px 2px rgba(0,0,0,0.03),0 4px 4px rgba(0,0,0,0.03),0 8px 8px rgba(0,0,0,0.03);
+    vertical-align: text-bottom;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(91, 103, 112);
+    line-height: 35px;
+    font-size: 14pt;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;    
+    font-size: 40pt;
+    color: rgb(120,214,75);
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+    font-size: 18pt;
+    color: rgb(0,102,77);
+    margin-bottom: 20px;
+}
+
+ol {
+    text-indent: 20px;
+    margin-left: 50px;
+    font-weight: 400;
+    color: rgb(120,214,75);
+}
+
+
+li span { 
+    font-weight: 300;
+    color: rgb(91, 103, 112)
+}
+
+strong {
+    font-weight: 400;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    font-color: #5B6770;
+    float: left;
+    padding-left:37px;
+    padding-top: 5px;
+
+}
+
+.content {
+    margin-top:200px;
+    margin-left:5%;
+    margin-right:5%;
+}
